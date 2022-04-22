@@ -1,0 +1,49 @@
+.principal{
+    background-color: rgb(213, 228, 235);
+    padding-top: 40px;
+    padding-bottom: 45px;
+    margin: auto;
+}
+
+.loginPrincipal{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    width: 280px;
+    margin: auto;
+}
+
+
+@media only screen and (min-width: 765px) {
+    .principal {
+        display: block;
+        
+
+    }
+
+    .loginPrincipal{
+        width: 500px;
+        border-radius: 20px 20px 0px 0px;
+    }
+    
+  }
+
+
+
+  @media only screen and (min-width: 1020px) {
+
+
+
+    .principal {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 1024px;
+
+    }
+
+    .loginPrincipal{
+        border-radius: 20px 0px 0px 20px;
+    }
+    
+    
+  }

@@ -1,0 +1,72 @@
+  
+   .container{
+      padding-left: 0px;
+      padding-right: 0px;
+   }
+
+   .form{
+       width: 280px;
+       margin-left: auto;
+       margin-right: auto;
+       background-color: rgb(255, 255, 255);
+       
+   }
+      
+   .form .form-group{
+       margin-bottom: 2px;
+       margin-left: auto;
+       margin-right: auto;
+       display: table;
+   }
+
+   .form h2{
+       font-size: 22px;
+       width: 200px;
+       margin-top: 15px;
+       margin-bottom: 18px;
+   }
+   
+   .form label{
+       font-size: 12px;
+   }
+   
+   .form div > input{
+       width: 200px;
+   }
+   
+   #parrafoPassword{
+       font-size: 08px;
+   }
+   
+   button{
+       margin-top: 10px;
+       background-color: rgb(524, 172, 31) ;
+       border-color: rgb(524, 172, 31) ;
+       width: 200px;
+       font-size: 12px; 
+   }
+   
+   .container section{
+       display: flex;
+       flex-wrap: wrap;
+       margin-left: auto;
+       margin-right: auto;
+       padding-bottom: 60px;
+       padding-top: 20px;
+       width: 200px;
+       font-size: 8px; 
+   }
+  
+   section .form-check{
+        margin-right: auto;
+    }
+
+   
+   @media only screen and (min-width: 765px) {
+    
+    .form{
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    
+  }

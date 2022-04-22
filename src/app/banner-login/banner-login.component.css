@@ -1,0 +1,186 @@
+.banner{
+    display: none;
+    padding-top: 20px;
+} 
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+  
+li p{
+    color: rgb(241, 56, 15) ;
+    font-size: 8px;
+}
+  
+.navbar{
+    padding: 5px;
+    background-color: teal;
+    color: #fff;    
+}   
+
+
+.nav-links a {
+    color: #fff;
+}
+
+.menu{
+    gap: 1em;
+    font-size: 12px;
+}
+
+.menu li:hover {
+    background-color: #4c9e9e;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.menu li {
+    padding: 5px 14px;
+}
+
+input[type=checkbox]{
+    display: none;
+} 
+
+.hamburger{
+    font-size: 24px;
+    user-select: none;
+}   
+
+.banner h2{
+    font-size: 30px;
+    text-align: center;
+    margin: 25%;
+}
+
+
+
+@media (min-width: 767px) {
+  
+
+    .banner{
+        display: block;
+        width: 500px;
+        height: 600px;
+        margin-right: auto;
+        margin-left: auto;
+        background-color: black;
+        border-radius: 0px 0px 20px 20px ;
+    }
+
+    .menu { 
+        display:none;
+        position: absolute;
+        background-color:teal;
+        right: 0;
+        left: 0;
+        text-align: center;
+        padding: 16px 0;
+    }
+
+    .menu li:hover {
+        display: inline-block;
+        background-color:#4c9e9e;
+        transition: 0.3s ease;
+    }
+       
+    .menu li + li {
+        margin-top: 12px;
+    }
+
+    input[type=checkbox]:checked ~ .menu{
+        display: block;
+    }
+
+    .hamburger {
+        display: block;
+    }
+      
+    .banner__img{
+        height: 470px;
+        width: 500px;
+        object-fit: cover;
+        opacity: 0.2;
+    }
+    
+    .banner__info{
+        padding:0 3em;
+        position: absolute;
+        width: 100%;
+        max-width: 500px;
+        color: #fff;
+        margin-top: -300px;
+    }
+
+
+
+  }
+
+
+  @media only screen and (min-width: 1020px) {
+  
+
+    .banner{
+        width: 600px;
+        border-radius: 0px 20px 20px 0px;
+    }
+         
+    .hamburger {
+        display: none; 
+    }
+
+    .navbar {
+        display: flex;
+        background-color: black;
+    }
+       
+    .menu {
+        display: flex;
+        left: auto;
+        background-color: black;
+        margin-right: 20px;
+    }
+      
+    .menu li + li {
+        margin-top: 0px;
+    }
+    
+    .banner_imagen{
+        height: 570px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -45px;
+    }
+
+    .banner__img{
+        height: 625px;
+        width: 600px;
+        object-fit: cover;
+        opacity: 0.2;
+    }
+    
+    .banner__info{
+        padding: 20px 110px 0px 30px;
+        margin-top: -20px;
+    }
+
+    .banner__info p{
+        display: block;
+        width: 180px;
+        font-size: 16px;
+        margin-left: auto;
+        text-justify: auto;
+        margin-top: 40px;
+    }
+
+    .banner__info p + p{
+        font-size: 8px;
+    }
+
+  }
